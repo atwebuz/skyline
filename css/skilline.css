@@ -6,13 +6,32 @@
 /*font*/
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;   
+}
+.max-w-screen-xl{
+    padding-bottom: 130px;
 }
 
+@media(max-width: 656px){
+
+    .max-w-screen-xl{
+        padding-bottom: 0px;
+    }
+    
+}
 @media(max-width: 475px){
     .text-darken{
         font-size: 32px;
     }
+    .logo {
+        max-width: 75%;
+        height: auto;
+    }
+
+    
 }
+
+
 .bg-yellow-500 {
     background-color: #F48C06;
 }
